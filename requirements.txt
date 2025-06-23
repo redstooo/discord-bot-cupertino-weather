@@ -1,0 +1,4 @@
+emoji
+discord
+discord.py
+requests
