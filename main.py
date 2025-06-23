@@ -4,9 +4,9 @@ import discord
 from discord.ext import commands
 import requests
 
-token = os.getenv["BOT_TOKEN"]
-channel_id = os.getenv["CHANNEL_ID"]
-api_key = os.getenv["API_KEY"]
+token = os.getenv("BOT_TOKEN")
+channel_id = os.getenv("CHANNEL_ID")
+api_key = os.getenv("API_KEY")
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 command_list = ["!pocasie", "!cupertino"]
